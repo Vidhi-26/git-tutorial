@@ -1,5 +1,8 @@
 public class Perimeter {
   public static double calculate(double width, double height) {
-    // Implement Me
+    double perimeter;
+    perimeter = 2 * (width + height);
+
+    return perimeter;
   }
 }
